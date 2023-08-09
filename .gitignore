@@ -1,0 +1,44 @@
+# Ignorar archivos de configuración local
+*.env
+*.sqlite3
+
+# Ignorar archivos generados por Django
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar archivos de migraciones
+*/migrations/
+
+# Ignorar archivos estáticos generados
+static/
+
+# Ignorar archivos de medios
+media/
+
+# Ignorar el archivo de configuración local de Django
+settings_local.py
+
+# Ignorar el directorio de entorno virtual (si estás utilizando uno)
+venv/
+
+# Ignorar el directorio de dependencias de Node.js (si estás usando Django y React juntos)
+node_modules/
+package-lock.json
+
+# Ignorar archivos de registro y caché de Django
+*.log
+*.swp
+*.swo
+db.sqlite3
+
+# Ignorar archivos de dependencias de Node.js para el frontend
+frontend/node_modules/
+frontend/.cache/
+frontend/.build/
+
+# Ignorar archivos generados por el sistema de construcción de React
+frontend/build/
+frontend/dist/
+frontend/*.css.map
+frontend/*.js.map
